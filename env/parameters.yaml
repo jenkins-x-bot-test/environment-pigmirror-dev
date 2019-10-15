@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:pigmirror/adminUser:password
+  username: admin
+dashboardAuthID: vault:pigmirror:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:pigmirror:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:pigmirror/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:pigmirror/prow:hmacToken
